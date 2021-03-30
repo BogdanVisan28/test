@@ -1,0 +1,6 @@
+---
+- name: Copy consul binaries
+  ansible.builtin.fetch:
+    src: 192.160.65.247/home/rptpreprod/RTParamV2/consul/bin/1.4.2/
+    dest: /cloud-user/consul/bin/1/4/2
+    flat: yes
